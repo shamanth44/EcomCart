@@ -1,0 +1,27 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom Scrollbar */
+.scrollbar::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(197, 197, 197, 0.5);
+    border-radius: 10px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: rgba(240, 240, 240, 0.1);
+    border-radius: 10px;
+  }
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
